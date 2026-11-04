@@ -1,0 +1,151 @@
+{
+  "schema": "submission-files-v1",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 152,
+      "sha256": "f8131d58dfaaf0db13548693f8f94573bb4ddffaef031b33db062331eed7d59d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 43,
+      "sha256": "856d3fdd756775132bb6e1d2eb1661655915aee74acafceb3dddc731017e2b2d"
+    },
+    {
+      "path": "build/check_package.py",
+      "bytes": 3032,
+      "sha256": "8355a0c74b00f1791b29918f55fb18d6176e29832ebb6e88ec85fb1b90664255"
+    },
+    {
+      "path": "build/derive_comparisons.py",
+      "bytes": 1914,
+      "sha256": "e983696a58675833a93edf5820fbb14172ae6819f541ef15b5e7b7468553b299"
+    },
+    {
+      "path": "data/derived_comparisons.json",
+      "bytes": 1014,
+      "sha256": "b6063636c2cd7dbf533b233d9245318974e68f6313c378993880800ee11faa93"
+    },
+    {
+      "path": "data/external_comparisons.json",
+      "bytes": 3128,
+      "sha256": "f7064a2e61ee69095f6a6313252f43b3ba71acbf64f992f3b25f3dc290f4272f"
+    },
+    {
+      "path": "data/reported_metrics.json",
+      "bytes": 644,
+      "sha256": "9a41fd42361cb995ff5658aa9e07004ab9b4fa6e1657453822806e0b71ee3e88"
+    },
+    {
+      "path": "data/version.json",
+      "bytes": 268,
+      "sha256": "08f132fa2840d71198d6fc2f2e9c529f6c054be902d4f1eff4e25cd2eff9292e"
+    },
+    {
+      "path": "data/version_comparison.json",
+      "bytes": 2680,
+      "sha256": "0a33f80f6af75a62db07bdf926a78c50675635a7f55a4d47a7685607760a869d"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 397,
+      "sha256": "2e982469261ecd87257048b0b486afc9e786ef4c9b990f92d1c530e71315578f"
+    },
+    {
+      "path": "docs/comparisons.md",
+      "bytes": 7992,
+      "sha256": "3d45ebf7a1cc7fcf258074fcc760cd740c57eb4682f05c5225983089c93ae632"
+    },
+    {
+      "path": "docs/qwen7b.md",
+      "bytes": 361,
+      "sha256": "8cfe0ea0cd20616e8265f3cbf0c6a8cb34579fcdb1682465a8899a258626e0c8"
+    },
+    {
+      "path": "docs/qwen9b.md",
+      "bytes": 479,
+      "sha256": "c2ee13a0d8f2cd28dcf8fe3982ae448dba9f2012ede8b190c572aa7243be408e"
+    },
+    {
+      "path": "docs/versions.md",
+      "bytes": 599,
+      "sha256": "ac9d8fdeaa6774c4574d3a8a6a738baa228019b5ed2a620c3f87c58254730430"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1419,
+      "sha256": "a745ed0b695615e0182cbc4e718cbb32386da39ff929457432cff39b3daa6ea0"
+    },
+    {
+      "path": "report/ai_collaboration.md",
+      "bytes": 340,
+      "sha256": "c54c9b64993041b4f48d0404de22293c616aaa715d4573357c4d2cdead460ba6"
+    },
+    {
+      "path": "skill/README.md",
+      "bytes": 278,
+      "sha256": "ef5ea0632a158d82cdb2ca4160ae3fc4c73af546d03e3d66efc82744309c173a"
+    },
+    {
+      "path": "src/pl/q9_4k_protected_ip_vivado2025_2_v1_0.zip",
+      "bytes": 9429278,
+      "sha256": "93f022473df16f58d84e8bd08b0bca6a64f246cf7a43d817cdd334185e81ed04"
+    },
+    {
+      "path": "src/pl/README.md",
+      "bytes": 327,
+      "sha256": "64c41e292be7d263e655a58590b13593b4a843e18effa9be05e6a8dd385a4689"
+    },
+    {
+      "path": "src/ps/application_contracts/agent_tool_contract.py",
+      "bytes": 5751,
+      "sha256": "efc3752ef18bcc2dc2394d3ef964e8cb882a83d0071d1a5e473496091c67ad14"
+    },
+    {
+      "path": "src/ps/application_contracts/camera_commands.py",
+      "bytes": 3129,
+      "sha256": "2f527a78ea7a617f993f74d01646a751f1acbea1975813316167d2f4d2a8c3aa"
+    },
+    {
+      "path": "src/ps/application_contracts/linux_tool_contract.py",
+      "bytes": 3735,
+      "sha256": "ba8f6b5200881e8a6c6f7ecea58524317db23e19d3c04b2f2c6809f201545094"
+    },
+    {
+      "path": "src/ps/application_contracts/ps_agent_tools.py",
+      "bytes": 13524,
+      "sha256": "692d0d3bbbd6ebd29f2b89ac4c04076f24c7518ae9bc5d6ee8a7015c0516ce33"
+    },
+    {
+      "path": "src/ps/application_contracts/ps_camera.py",
+      "bytes": 3613,
+      "sha256": "3c92ad80e5d7b8b83d1601529f3e328b5a2250ec8096047038daf6d5fdd1fdbd"
+    },
+    {
+      "path": "src/ps/application_contracts/ps_linux_tools.py",
+      "bytes": 1965,
+      "sha256": "715710b19a6af92c952d734ccfcef1521a685b83a0d079af80c6224c605715f3"
+    },
+    {
+      "path": "src/ps/application_contracts/thinking_contract.py",
+      "bytes": 779,
+      "sha256": "0c40eb922cbafb6dbc511403c968ab9625ad6d3c1f179c0a02c76c9d069d451d"
+    },
+    {
+      "path": "src/ps/protocol.py",
+      "bytes": 4788,
+      "sha256": "b73eb2fb8e92927c10ec06b157482b9e55fca0572c7cc74953ddaa8787d11f58"
+    },
+    {
+      "path": "src/ps/README.md",
+      "bytes": 376,
+      "sha256": "ea7b4df58c63b36af81e3725061123a09a9209c5eaa7cd248e60f08325174b60"
+    },
+    {
+      "path": "src/runtime/legacy_4k_runtime.zip",
+      "bytes": 5597298,
+      "sha256": "6475dad985df4a6c8acb9509fca99fd9e920ba892253b24d0cd5a2a1da024e22"
+    }
+  ]
+}

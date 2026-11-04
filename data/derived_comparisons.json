@@ -1,0 +1,31 @@
+{
+  "q7_internal_speed_increase_pct": 64.3505948078839,
+  "hummingbird_zcu104_resource_reduction_pct": {
+    "dsp": 56.62983425414365,
+    "lut": 35.86060606060606,
+    "ff": 42.03369565217391,
+    "uram": 95.0
+  },
+  "hummingbird_zcu104_bram_increase_pct": 5.263157894736836,
+  "hummingbird_zcu104_throughput_fraction_pct": 97.8325581395349,
+  "descriptive_dsp_per_tps": {
+    "q7": 18.660264333935533,
+    "hummingbird_zcu104": 42.093023255813954,
+    "reduction_pct": 55.66898528402056
+  },
+  "reported_dsp_reduction_pct": {
+    "hummingbird_kv260": 12.290502793296088,
+    "li_date2025": 46.04810996563574,
+    "llamaf": 70.26515151515152,
+    "flightllm": 97.52561071710008,
+    "lightmamba": 31.14035087719298,
+    "tereffic": 94.83722459717198
+  },
+  "jetson_numeric_output_difference_pct": {
+    "ChatLLM": 23.350253807106604,
+    "llamacpp": 9.459459459459453
+  },
+  "q9_state_uram_reduction_pct": 50.0,
+  "q9_top_uram_reduction_pct": 44.44444444444444,
+  "strict_cross_platform_matched_speedup": false
+}

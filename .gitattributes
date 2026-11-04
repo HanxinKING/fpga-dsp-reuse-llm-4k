@@ -1,0 +1,11 @@
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.v -text
+*.sv -text
+*.vp -text
+*.mem -text
+*.xml -text
+*.zip binary
+*.bit binary
+q9-engine binary

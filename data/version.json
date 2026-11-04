@@ -1,0 +1,9 @@
+{
+  "q9_context": 4096,
+  "text_max_new": 512,
+  "vision_max_new": 128,
+  "core_hz": 250000000,
+  "ABI": "0x5139344b",
+  "bit_sha256": "a11bdab4436abd946534e45e8a9d8d486945168ca58ad8037817c036a61e18e7",
+  "historical_4k_runtime": "src/runtime/legacy_4k_runtime.zip"
+}

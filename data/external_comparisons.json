@@ -1,0 +1,120 @@
+{
+  "accessed": "2026-11-05",
+  "records": [
+    {
+      "id": "hummingbird_zcu104",
+      "model": "LLaMA3-8B",
+      "board": "ZCU104",
+      "dsp": 362,
+      "lut": 66000,
+      "ff": 92000,
+      "bram36": 133,
+      "uram": 40,
+      "tps": 8.6,
+      "source": "https://arxiv.org/html/2507.03308v1",
+      "locator": "Table V and Section V-A",
+      "precision": "W4/KV8",
+      "load": "32 prefill / 32 decode",
+      "bandwidth_gbps": 34.1
+    },
+    {
+      "id": "hummingbird_kv260",
+      "model": "LLaMA3-8B",
+      "board": "KV260",
+      "dsp": 179,
+      "lut": 26000,
+      "bram36": 59,
+      "uram": 18,
+      "tps": 4.8,
+      "source": "https://arxiv.org/html/2507.03308v1",
+      "locator": "Table V",
+      "precision": "W4/KV8",
+      "load": "32/32"
+    },
+    {
+      "id": "li_date2025",
+      "model": "LLaMA2-7B",
+      "board": "KV260",
+      "dsp": 291,
+      "lut": 78000,
+      "bram36": 36.5,
+      "uram": 10,
+      "tps": 4.9,
+      "source": "https://arxiv.org/html/2502.10659v1",
+      "locator": "Tables I-II",
+      "precision": "W4",
+      "context": 1024
+    },
+    {
+      "id": "llamaf",
+      "model": "TinyLlama-1.1B",
+      "board": "ZCU102",
+      "dsp": 528,
+      "lut": 164000,
+      "bram36": 223,
+      "tps": 1.478,
+      "source": "https://arxiv.org/html/2409.11424v1",
+      "locator": "Table III percentages, Table VI step=64",
+      "precision": "W8A8",
+      "resource_approximation": true
+    },
+    {
+      "id": "flightllm",
+      "board": "U280",
+      "dsp": 6345,
+      "lut": 574000,
+      "bram": 1252,
+      "uram": 792,
+      "source": "https://arxiv.org/html/2401.03868v2",
+      "locator": "Table 3 and Section 6.1",
+      "precision": "mixed precision and sparsity",
+      "scope": "real U280; VHK158 evaluation is simulated"
+    },
+    {
+      "id": "edgellm",
+      "board": "VCU128",
+      "source": "https://arxiv.org/abs/2407.21325v2",
+      "locator": "author abstract",
+      "dsp": null,
+      "tps": null,
+      "scope": "No numeric resource claim from missing full table"
+    },
+    {
+      "id": "lightmamba",
+      "model": "Mamba2-2.7B",
+      "board": "VCK190",
+      "dsp": 228,
+      "lut": 107000,
+      "bram": 912,
+      "uram": 61,
+      "tps": 7.21,
+      "source": "https://arxiv.org/html/2502.15260v1",
+      "locator": "Table IV",
+      "precision": "W4A4",
+      "scope": "VCK190 practical; U280 93 tps simulated"
+    },
+    {
+      "id": "tereffic",
+      "model": "ternary models; architecture variants",
+      "board": "U280",
+      "dsp": 3041,
+      "lut": [
+        760000,
+        781000
+      ],
+      "source": "https://arxiv.org/html/2502.16473v2",
+      "locator": "Table IV",
+      "scope": "whole design DSP, not DSP-free LUT TMat core"
+    },
+    {
+      "id": "fast_prefill",
+      "board": "U280",
+      "source": "https://arxiv.org/abs/2602.20515v1",
+      "locator": "abstract",
+      "scope": "prefill/TTFT; not decode ranking"
+    }
+  ],
+  "cross_platform_matched_speedup": false,
+  "unknown": "null means not claimed; never zero",
+  "jetson_official": "https://www.jetson-ai-lab.com/archive/benchmarks.html"
+}

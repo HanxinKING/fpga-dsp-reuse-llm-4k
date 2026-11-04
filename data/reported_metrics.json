@@ -1,0 +1,26 @@
+{
+  "source": "Revised design report; not a fabricated raw benchmark log",
+  "q7": {
+    "model": "Qwen2.5-7B",
+    "core_mhz": 300.12,
+    "main_dsp": 128,
+    "total_dsp": 157,
+    "decode_tokens_per_second": 8.4136
+  },
+  "q9": {
+    "model": "Qwen3.5-9B",
+    "core_mhz": 250,
+    "total_dsp": 157,
+    "uram": 15,
+    "display_tokens_per_second": 4.86,
+    "throughput_provenance": "User-confirmed report value; corresponding raw timing trace not included"
+  },
+  "jetson": {
+    "ChatLLM": 3.94,
+    "llamacpp": 4.44,
+    "backend": "Vulkan",
+    "input_tokens": 64,
+    "output_tokens": 64
+  },
+  "strict_matched_speedup_claim": false
+}
