@@ -34,18 +34,18 @@
     },
     {
       "path": "data/reported_metrics.json",
-      "bytes": 644,
-      "sha256": "9a41fd42361cb995ff5658aa9e07004ab9b4fa6e1657453822806e0b71ee3e88"
+      "bytes": 711,
+      "sha256": "db7aaf931b3b392fdd0a576ce23a88daa1ac56f07bb2e92e94e291398212724c"
     },
     {
       "path": "data/version.json",
-      "bytes": 268,
-      "sha256": "08f132fa2840d71198d6fc2f2e9c529f6c054be902d4f1eff4e25cd2eff9292e"
+      "bytes": 636,
+      "sha256": "d0f709fecfafb9d93e42bba4f0be30c87c26208bdbd3cc6167b4f58c0efc8d74"
     },
     {
       "path": "data/version_comparison.json",
-      "bytes": 2195,
-      "sha256": "e907e270f98db76769c72fe3d31171d5e8fc79872923140824b625fa41410d9b"
+      "bytes": 2680,
+      "sha256": "0a33f80f6af75a62db07bdf926a78c50675635a7f55a4d47a7685607760a869d"
     },
     {
       "path": "docs/architecture.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "docs/comparisons.md",
-      "bytes": 7986,
-      "sha256": "10a35356d51839e28844ccb3627ccddf58c0704993b59523c44ea3dd7a52df04"
+      "bytes": 7992,
+      "sha256": "3d45ebf7a1cc7fcf258074fcc760cd740c57eb4682f05c5225983089c93ae632"
     },
     {
       "path": "docs/qwen7b.md",
@@ -64,8 +64,8 @@
     },
     {
       "path": "docs/qwen9b.md",
-      "bytes": 479,
-      "sha256": "c2ee13a0d8f2cd28dcf8fe3982ae448dba9f2012ede8b190c572aa7243be408e"
+      "bytes": 480,
+      "sha256": "e9ff4cb92a0be7c612640030b7262e3e08615befdb5981f59dbf88d851e5685a"
     },
     {
       "path": "docs/versions.md",
@@ -74,8 +74,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1419,
-      "sha256": "a745ed0b695615e0182cbc4e718cbb32386da39ff929457432cff39b3daa6ea0"
+      "bytes": 1407,
+      "sha256": "d2c8f0f74fa532fb4b916f21520eab22b5e99017cb6496f358ebabfd527a4c2b"
     },
     {
       "path": "report/ai_collaboration.md",
@@ -86,6 +86,11 @@
       "path": "skill/README.md",
       "bytes": 278,
       "sha256": "ef5ea0632a158d82cdb2ca4160ae3fc4c73af546d03e3d66efc82744309c173a"
+    },
+    {
+      "path": "src/pl/q9_32k_protected_ip_vivado2025_2_v1_0.zip",
+      "bytes": 6235392,
+      "sha256": "e2315866d0c3dbc33e3c3209f36dd7dab411438a930c75ca9860636f53415b71"
     },
     {
       "path": "src/pl/q9_4k_protected_ip_vivado2025_2_v1_0.zip",
@@ -135,7 +140,7 @@
     {
       "path": "src/ps/linux/bin/q9-engine",
       "bytes": 49984,
-      "sha256": "c3eb0fe5cd8f70bbd7cf0cf464c091b346825beec34b10d4d4da812de670a18b"
+      "sha256": "6ca3dddb6226f79e1f944a5d35a2063c3ce7c786eb58731d1d282c6f7ba054a2"
     },
     {
       "path": "src/ps/protocol.py",
@@ -150,7 +155,12 @@
     {
       "path": "src/runtime/legacy_4k_runtime.zip",
       "bytes": 5568986,
-      "sha256": "16893d4b9c8110c991eb613bc9ade3e4fef974becfd9b8425cbadd5c793af944"
+      "sha256": "70a77f293f844879ff9f6efa30d98c559bd97aaff8b203c3d2f55d26cec8b3d5"
+    },
+    {
+      "path": "src/runtime/q9_32k_numericfix.bit",
+      "bytes": 36343250,
+      "sha256": "3f7a3b28f706a834d59d85ed763266240f158afbe9939194f873bc32890faa84"
     }
   ]
 }

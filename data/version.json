@@ -1,9 +1,21 @@
 {
-  "q9_context": 4096,
-  "text_max_new": 512,
-  "vision_max_new": 128,
+  "profile": "Q933_32K_Compact8",
+  "q9_context": 32768,
+  "text_max_new": 2048,
+  "vision_max_new": 2048,
   "core_hz": 250000000,
-  "ABI": "0x5139344b",
-  "bit_sha256": "a11bdab4436abd946534e45e8a9d8d486945168ca58ad8037817c036a61e18e7",
+  "ABI": "0x51393333",
+  "session_abi": "0x51395333",
+  "bit": "src/runtime/q9_32k_numericfix.bit",
+  "bit_sha256": "3f7a3b28f706a834d59d85ed763266240f158afbe9939194f873bc32890faa84",
+  "engine": "src/ps/linux/bin/q9-engine",
+  "engine_sha256": "6ca3dddb6226f79e1f944a5d35a2063c3ce7c786eb58731d1d282c6f7ba054a2",
+  "resources": {
+    "lut": 104860.0,
+    "ff": 109225.0,
+    "bram36": 173.5,
+    "uram": 15.0,
+    "total_dsp": 157.0
+  },
   "historical_4k_runtime": "src/runtime/legacy_4k_runtime.zip"
 }
