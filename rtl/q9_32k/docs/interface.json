@@ -1,0 +1,641 @@
+{
+  "name": "q9_accelerator_ip",
+  "version": "1.0",
+  "profile": "Q933_32K_Compact8",
+  "model_abi": "0x51393333",
+  "session_abi": "0x51395333",
+  "context": 32768,
+  "core_hz": 250000000,
+  "ui_hz": 300120048,
+  "part": "xczu19eg-ffvc1760-2-i",
+  "interfaces": {
+    "s_axi_ctrl": {
+      "mode": "slave",
+      "clock": "core_clk",
+      "mapping": {
+        "AWADDR": "s_axi_ctrl_awaddr",
+        "AWVALID": "s_axi_ctrl_awvalid",
+        "AWREADY": "s_axi_ctrl_awready",
+        "WDATA": "s_axi_ctrl_wdata",
+        "WSTRB": "s_axi_ctrl_wstrb",
+        "WVALID": "s_axi_ctrl_wvalid",
+        "WREADY": "s_axi_ctrl_wready",
+        "BRESP": "s_axi_ctrl_bresp",
+        "BVALID": "s_axi_ctrl_bvalid",
+        "BREADY": "s_axi_ctrl_bready",
+        "ARADDR": "s_axi_ctrl_araddr",
+        "ARVALID": "s_axi_ctrl_arvalid",
+        "ARREADY": "s_axi_ctrl_arready",
+        "RDATA": "s_axi_ctrl_rdata",
+        "RRESP": "s_axi_ctrl_rresp",
+        "RVALID": "s_axi_ctrl_rvalid",
+        "RREADY": "s_axi_ctrl_rready"
+      },
+      "widths": {
+        "AWADDR": 16,
+        "AWVALID": 1,
+        "AWREADY": 1,
+        "WDATA": 32,
+        "WSTRB": 4,
+        "WVALID": 1,
+        "WREADY": 1,
+        "BRESP": 2,
+        "BVALID": 1,
+        "BREADY": 1,
+        "ARADDR": 16,
+        "ARVALID": 1,
+        "ARREADY": 1,
+        "RDATA": 32,
+        "RRESP": 2,
+        "RVALID": 1,
+        "RREADY": 1
+      }
+    },
+    "m_axi_weight_pl": {
+      "mode": "master",
+      "clock": "ui_clk",
+      "mapping": {
+        "ARID": "m_axi_weight_pl_arid",
+        "ARADDR": "m_axi_weight_pl_araddr",
+        "ARLEN": "m_axi_weight_pl_arlen",
+        "ARSIZE": "m_axi_weight_pl_arsize",
+        "ARBURST": "m_axi_weight_pl_arburst",
+        "ARLOCK": "m_axi_weight_pl_arlock",
+        "ARCACHE": "m_axi_weight_pl_arcache",
+        "ARPROT": "m_axi_weight_pl_arprot",
+        "ARQOS": "m_axi_weight_pl_arqos",
+        "ARVALID": "m_axi_weight_pl_arvalid",
+        "ARREADY": "m_axi_weight_pl_arready",
+        "RID": "m_axi_weight_pl_rid",
+        "RDATA": "m_axi_weight_pl_rdata",
+        "RRESP": "m_axi_weight_pl_rresp",
+        "RLAST": "m_axi_weight_pl_rlast",
+        "RVALID": "m_axi_weight_pl_rvalid",
+        "RREADY": "m_axi_weight_pl_rready"
+      },
+      "widths": {
+        "ARID": 4,
+        "ARADDR": 34,
+        "ARLEN": 8,
+        "ARSIZE": 3,
+        "ARBURST": 2,
+        "ARLOCK": 1,
+        "ARCACHE": 4,
+        "ARPROT": 3,
+        "ARQOS": 4,
+        "ARVALID": 1,
+        "ARREADY": 1,
+        "RID": 4,
+        "RDATA": 512,
+        "RRESP": 2,
+        "RLAST": 1,
+        "RVALID": 1,
+        "RREADY": 1
+      }
+    },
+    "m_axi_weight_ps": {
+      "mode": "master",
+      "clock": "ui_clk",
+      "mapping": {
+        "ARID": "m_axi_weight_ps_arid",
+        "ARADDR": "m_axi_weight_ps_araddr",
+        "ARLEN": "m_axi_weight_ps_arlen",
+        "ARSIZE": "m_axi_weight_ps_arsize",
+        "ARBURST": "m_axi_weight_ps_arburst",
+        "ARLOCK": "m_axi_weight_ps_arlock",
+        "ARCACHE": "m_axi_weight_ps_arcache",
+        "ARPROT": "m_axi_weight_ps_arprot",
+        "ARQOS": "m_axi_weight_ps_arqos",
+        "ARVALID": "m_axi_weight_ps_arvalid",
+        "ARREADY": "m_axi_weight_ps_arready",
+        "RID": "m_axi_weight_ps_rid",
+        "RDATA": "m_axi_weight_ps_rdata",
+        "RRESP": "m_axi_weight_ps_rresp",
+        "RLAST": "m_axi_weight_ps_rlast",
+        "RVALID": "m_axi_weight_ps_rvalid",
+        "RREADY": "m_axi_weight_ps_rready"
+      },
+      "widths": {
+        "ARID": 4,
+        "ARADDR": 34,
+        "ARLEN": 8,
+        "ARSIZE": 3,
+        "ARBURST": 2,
+        "ARLOCK": 1,
+        "ARCACHE": 4,
+        "ARPROT": 3,
+        "ARQOS": 4,
+        "ARVALID": 1,
+        "ARREADY": 1,
+        "RID": 4,
+        "RDATA": 512,
+        "RRESP": 2,
+        "RLAST": 1,
+        "RVALID": 1,
+        "RREADY": 1
+      }
+    },
+    "m_axi_state": {
+      "mode": "master",
+      "clock": "core_clk",
+      "mapping": {
+        "AWID": "m_axi_state_awid",
+        "AWADDR": "m_axi_state_awaddr",
+        "AWLEN": "m_axi_state_awlen",
+        "AWSIZE": "m_axi_state_awsize",
+        "AWBURST": "m_axi_state_awburst",
+        "AWVALID": "m_axi_state_awvalid",
+        "AWREADY": "m_axi_state_awready",
+        "WDATA": "m_axi_state_wdata",
+        "WSTRB": "m_axi_state_wstrb",
+        "WLAST": "m_axi_state_wlast",
+        "WVALID": "m_axi_state_wvalid",
+        "WREADY": "m_axi_state_wready",
+        "BID": "m_axi_state_bid",
+        "BRESP": "m_axi_state_bresp",
+        "BVALID": "m_axi_state_bvalid",
+        "BREADY": "m_axi_state_bready",
+        "ARID": "m_axi_state_arid",
+        "ARADDR": "m_axi_state_araddr",
+        "ARLEN": "m_axi_state_arlen",
+        "ARSIZE": "m_axi_state_arsize",
+        "ARBURST": "m_axi_state_arburst",
+        "ARVALID": "m_axi_state_arvalid",
+        "ARREADY": "m_axi_state_arready",
+        "RID": "m_axi_state_rid",
+        "RDATA": "m_axi_state_rdata",
+        "RRESP": "m_axi_state_rresp",
+        "RLAST": "m_axi_state_rlast",
+        "RVALID": "m_axi_state_rvalid",
+        "RREADY": "m_axi_state_rready"
+      },
+      "widths": {
+        "AWID": 4,
+        "AWADDR": 34,
+        "AWLEN": 8,
+        "AWSIZE": 3,
+        "AWBURST": 2,
+        "AWVALID": 1,
+        "AWREADY": 1,
+        "WDATA": 512,
+        "WSTRB": 64,
+        "WLAST": 1,
+        "WVALID": 1,
+        "WREADY": 1,
+        "BID": 4,
+        "BRESP": 2,
+        "BVALID": 1,
+        "BREADY": 1,
+        "ARID": 4,
+        "ARADDR": 34,
+        "ARLEN": 8,
+        "ARSIZE": 3,
+        "ARBURST": 2,
+        "ARVALID": 1,
+        "ARREADY": 1,
+        "RID": 4,
+        "RDATA": 512,
+        "RRESP": 2,
+        "RLAST": 1,
+        "RVALID": 1,
+        "RREADY": 1
+      }
+    }
+  },
+  "ports": [
+    {
+      "direction": "input",
+      "width": "",
+      "name": "core_clk"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "ui_clk"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "core_aresetn"
+    },
+    {
+      "direction": "input",
+      "width": "[31:0]",
+      "name": "board_errors_i"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "busy_o"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "done_o"
+    },
+    {
+      "direction": "input",
+      "width": "[15:0]",
+      "name": "s_axi_ctrl_awaddr"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "s_axi_ctrl_awvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "s_axi_ctrl_awready"
+    },
+    {
+      "direction": "input",
+      "width": "[31:0]",
+      "name": "s_axi_ctrl_wdata"
+    },
+    {
+      "direction": "input",
+      "width": "[3:0]",
+      "name": "s_axi_ctrl_wstrb"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "s_axi_ctrl_wvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "s_axi_ctrl_wready"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "s_axi_ctrl_bresp"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "s_axi_ctrl_bvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "s_axi_ctrl_bready"
+    },
+    {
+      "direction": "input",
+      "width": "[15:0]",
+      "name": "s_axi_ctrl_araddr"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "s_axi_ctrl_arvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "s_axi_ctrl_arready"
+    },
+    {
+      "direction": "output",
+      "width": "[31:0]",
+      "name": "s_axi_ctrl_rdata"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "s_axi_ctrl_rresp"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "s_axi_ctrl_rvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "s_axi_ctrl_rready"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_pl_arid"
+    },
+    {
+      "direction": "output",
+      "width": "[33:0]",
+      "name": "m_axi_weight_pl_araddr"
+    },
+    {
+      "direction": "output",
+      "width": "[7:0]",
+      "name": "m_axi_weight_pl_arlen"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_weight_pl_arsize"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "m_axi_weight_pl_arburst"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_pl_arlock"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_pl_arcache"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_weight_pl_arprot"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_pl_arqos"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_pl_arvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_pl_arready"
+    },
+    {
+      "direction": "input",
+      "width": "[3:0]",
+      "name": "m_axi_weight_pl_rid"
+    },
+    {
+      "direction": "input",
+      "width": "[511:0]",
+      "name": "m_axi_weight_pl_rdata"
+    },
+    {
+      "direction": "input",
+      "width": "[1:0]",
+      "name": "m_axi_weight_pl_rresp"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_pl_rlast"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_pl_rvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_pl_rready"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_ps_arid"
+    },
+    {
+      "direction": "output",
+      "width": "[33:0]",
+      "name": "m_axi_weight_ps_araddr"
+    },
+    {
+      "direction": "output",
+      "width": "[7:0]",
+      "name": "m_axi_weight_ps_arlen"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_weight_ps_arsize"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "m_axi_weight_ps_arburst"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_ps_arlock"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_ps_arcache"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_weight_ps_arprot"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_weight_ps_arqos"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_ps_arvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_ps_arready"
+    },
+    {
+      "direction": "input",
+      "width": "[3:0]",
+      "name": "m_axi_weight_ps_rid"
+    },
+    {
+      "direction": "input",
+      "width": "[511:0]",
+      "name": "m_axi_weight_ps_rdata"
+    },
+    {
+      "direction": "input",
+      "width": "[1:0]",
+      "name": "m_axi_weight_ps_rresp"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_ps_rlast"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_weight_ps_rvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_weight_ps_rready"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_state_awid"
+    },
+    {
+      "direction": "output",
+      "width": "[33:0]",
+      "name": "m_axi_state_awaddr"
+    },
+    {
+      "direction": "output",
+      "width": "[7:0]",
+      "name": "m_axi_state_awlen"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_state_awsize"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "m_axi_state_awburst"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_awvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_awready"
+    },
+    {
+      "direction": "output",
+      "width": "[511:0]",
+      "name": "m_axi_state_wdata"
+    },
+    {
+      "direction": "output",
+      "width": "[63:0]",
+      "name": "m_axi_state_wstrb"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_wlast"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_wvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_wready"
+    },
+    {
+      "direction": "input",
+      "width": "[3:0]",
+      "name": "m_axi_state_bid"
+    },
+    {
+      "direction": "input",
+      "width": "[1:0]",
+      "name": "m_axi_state_bresp"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_bvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_bready"
+    },
+    {
+      "direction": "output",
+      "width": "[3:0]",
+      "name": "m_axi_state_arid"
+    },
+    {
+      "direction": "output",
+      "width": "[33:0]",
+      "name": "m_axi_state_araddr"
+    },
+    {
+      "direction": "output",
+      "width": "[7:0]",
+      "name": "m_axi_state_arlen"
+    },
+    {
+      "direction": "output",
+      "width": "[2:0]",
+      "name": "m_axi_state_arsize"
+    },
+    {
+      "direction": "output",
+      "width": "[1:0]",
+      "name": "m_axi_state_arburst"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_arvalid"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_arready"
+    },
+    {
+      "direction": "input",
+      "width": "[3:0]",
+      "name": "m_axi_state_rid"
+    },
+    {
+      "direction": "input",
+      "width": "[511:0]",
+      "name": "m_axi_state_rdata"
+    },
+    {
+      "direction": "input",
+      "width": "[1:0]",
+      "name": "m_axi_state_rresp"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_rlast"
+    },
+    {
+      "direction": "input",
+      "width": "",
+      "name": "m_axi_state_rvalid"
+    },
+    {
+      "direction": "output",
+      "width": "",
+      "name": "m_axi_state_rready"
+    }
+  ],
+  "original_sources_modified": false,
+  "core_logic_modified": false,
+  "wrapper_status": "ENCRYPTED_RTL_ELABORATION_PASS_NOT_INDEPENDENT_PHYSICAL_SIGNOFF",
+  "plaintext_data": "Address and lookup ROM tables only; no RTL implementation is published"
+}

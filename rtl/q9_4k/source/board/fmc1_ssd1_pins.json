@@ -1,0 +1,21 @@
+{
+  "m2_refclk_p": "AF12",
+  "m2_refclk_n": "AF11",
+  "m2_perst_n": "AY27",
+  "m2_pcie_rxp[0]": "AJ2",
+  "m2_pcie_rxp[1]": "AK4",
+  "m2_pcie_rxp[2]": "AL2",
+  "m2_pcie_rxp[3]": "AM4",
+  "m2_pcie_rxn[0]": "AJ1",
+  "m2_pcie_rxn[1]": "AK3",
+  "m2_pcie_rxn[2]": "AL1",
+  "m2_pcie_rxn[3]": "AM3",
+  "m2_pcie_txp[0]": "AH8",
+  "m2_pcie_txp[1]": "AJ6",
+  "m2_pcie_txp[2]": "AK8",
+  "m2_pcie_txp[3]": "AL6",
+  "m2_pcie_txn[0]": "AH7",
+  "m2_pcie_txn[1]": "AJ5",
+  "m2_pcie_txn[2]": "AK7",
+  "m2_pcie_txn[3]": "AL5"
+}

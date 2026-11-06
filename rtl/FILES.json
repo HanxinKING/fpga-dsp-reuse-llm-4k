@@ -1,0 +1,1597 @@
+{
+  "files": [
+    {
+      "path": "rtl/q9_32k/hdl/q9_accelerator_ip.v",
+      "sha256": "24758fef56d756a0f0d9d20d9745c2dd058cbff9b79a345d5eb9a5a6e1880085",
+      "source_archive": "q9_32k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_32k/hdl/q9_core.vp",
+      "sha256": "be9f5c0071ac06cb0c68d18233715dede28200457ca61d3d595107ed49d912a3",
+      "source_archive": "q9_32k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_32k/tests/tb_q9_ip.sv",
+      "sha256": "3ee0d3fe86c84b8dd5c96324be562e163a221a35716d89532b914da1d749dbe9",
+      "source_archive": "q9_32k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/hdl/q9_accelerator_4k_impl.sv",
+      "sha256": "f6aa37dc880403b067dba49f7bd52e344ddcdd213a2616f9d4a30a08bb1c2a3a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/hdl/q9_accelerator_4k_ip.v",
+      "sha256": "f7dfa25df9d9ac1947c83f1a5a75b35ec87ecbe7b21ad34c9a0356e135f6e30d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/002_qwen_shared_affine_egress.sv",
+      "sha256": "b9685cbf1d14dcf8ca45f110e3c1633fa4847460267d03750d5edae585b1dbee",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen15b_rmsnorm_divide_pipeline.sv",
+      "sha256": "d72beb67e5d8f6517075f7c81fb71d33b6e491e1d8888b30e75b5ec3546053e7",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen15b_unsigned_divider_iterative.sv",
+      "sha256": "d1a06abf3bc0f966a7f763c19d184a4289ff5c281189ddffe8c035de14a1078b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_attention_compact.sv",
+      "sha256": "91d8b05a96be03f98fd98dad97eaaf66761f6d9d98fc6caf32168740c87f158b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_attention_normalize_pipeline.sv",
+      "sha256": "c645c9657c5aad5c9fd52c191b778e5af2b01ef3bda2c8a6b8af5894a58d808c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_attention_o_stream_loader.sv",
+      "sha256": "fbeb3d1280198c2caa707b7e4888596438219f9a54786efce73dadb3d321f3fd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_attention_output_gate.sv",
+      "sha256": "e0478b11d5ccc2ab0eb716c43eb2857a4c3a1d38fc5cce34796fdc3f357072e9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_attn_engine_wrap.sv",
+      "sha256": "54b463a6c2d007704c825ce281e20504110db2d0062b08c7e87da586b72285a3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_axi_read_owner_mux.sv",
+      "sha256": "424f92ba7f5c901c621a5bac0a26b6d6ac084be213d2f6b0a95ceb98b99a5ac5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_axi_stream_port.sv",
+      "sha256": "2c73ca1b964b981c7e1e07289df08e845ea6cb1ad46a75067f03c8b0a84b7573",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_bf16_dual_feed.sv",
+      "sha256": "31ea0708621e70bf7dce634bcac17029ef41df02cb5d3f70e13920f745b4bfee",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_bf16_head.sv",
+      "sha256": "7094b0c22980cfc265ccd04db8154a1a5abb43d4dfb53994219f92f2d4cb2c09",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_bf16_head_axi.sv",
+      "sha256": "4778b886c4080bffcc68a4dd11f40e1ef85e65c829c837ca842133e31ac7cc77",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_bf16_tile.sv",
+      "sha256": "119afdc3b1e4f39ea8409db9a4142e7037671039c6f4afc316748866c5193588",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_carry_prefix80_49.sv",
+      "sha256": "b50eae52c0c775799050f5690f0ef428ecc7b9b857acc372c7dc544fe91c4cf5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_command_cdc.sv",
+      "sha256": "4900a749025a63f09212f04e49362187d6e2bad0ad91369482f8548fd9151e3f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_compact_perf_monitor.sv",
+      "sha256": "7d434de6dd143d6ab26ae1cc2bcddc1b70f2759a1b707e06d914c440c6df4bc4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_compute_reset49.sv",
+      "sha256": "019cef364c629f6b0b3bf84efd32707f8dda41d80786a56f4873a87ecc0837df",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_embedding_reader.sv",
+      "sha256": "e51c48a94158b0db73fca9f0174df50d3c37e6649724a86739124ef9af191b7d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_ffn_replay_skid.sv",
+      "sha256": "da86d88e51d6dc1aa86e25197fc57cdb4cb1ab40d4d365cfd3c7cf74cd51c5f9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_ffn_schedule.sv",
+      "sha256": "1fdf290d207b0447173f515069a259cf2a472b4d4bf5b11e83fb9107333563e6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_full_attention_layer.sv",
+      "sha256": "dc30662b105350827e8a18cfcd4432e91c84dd0d6fb32f5f8a5cf9be3b0efe8e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_full_attention_payload_4k.sv",
+      "sha256": "e116ea3da8872c71647a52b8122291e425d143a63080b7f337a580ef9158dffb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gamma_axi_cache.sv",
+      "sha256": "ed912b01508d8bb30aa56ab5993f8169f862a6f9e03c49c803c194940a0520c9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gamma_cache.sv",
+      "sha256": "7549612bd1fa021b4986bd4da51ab0886ef6c599244771e2bb16d7337a39ad4d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gamma_position_rom.sv",
+      "sha256": "ed9e2d574c7212fa39c49b303c05657d24323d2612315e3b38b3dd4cb72b76bb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_activation_store38.sv",
+      "sha256": "338300143ae2938325e57839e7854da5228cd7bded25aa64e5b0ca2cd611ea23",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_aux_arb37.sv",
+      "sha256": "c5c772547d91e49bf3bb4679fcaba60e3e6434924df096a1f25a7bfd15facc4c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_aux_chain40.sv",
+      "sha256": "72741bee0946c8a0410e3ecbab2c6ac580bf5ff0b019febada4a5058ffb71038",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_aux_pool.sv",
+      "sha256": "6705c8371c3c7e1db9caff600ad362d9be237f282f8fed2f01cb7f9c5f72a525",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_axi_read_queue37.sv",
+      "sha256": "5bc0a4223b139f6f1e0bbc7aa51d752859ac8e106a1ebff7eb90ebdb061a23b9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_coeff_window38.sv",
+      "sha256": "c3dca23ee2a600c79d0cf78ac1e70791c3c5d8e98dc760fa6c81cc93a9ac26f4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_conv1d.sv",
+      "sha256": "66fe4615e9454416ba45aa7a3564ffa11df44d52a02499bdde1ff85166adfbb4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_conv40.sv",
+      "sha256": "74fe8a9ff101a21644b22a49797d617ce9f0fdb65ba5f936cfcef08d5e5800e6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_conv_coeff_cache.sv",
+      "sha256": "52dd1cd767d1796557e370df438879e03dc916837c03a622f9676d77cc97be2c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_engine_stream37.sv",
+      "sha256": "eaff4cde7c5ef3c94dc6f3de3359c072baa6edf303dc2acbe1d7a7ef5a6416ed",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_engine_top.sv",
+      "sha256": "e7ffce930046c05c2fce9a991192f078da13eda91a321796a33f8628c822fe03",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_fifo37.sv",
+      "sha256": "6407aeb01e1cb2725234d2b759dd3bca3a969a207204c769e0f757332e217261",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_gate_unit.sv",
+      "sha256": "42d237c817c3f246d044e8c8b0863be60da04fe94f8f3c5d39835f598d401375",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_gate_unit37.sv",
+      "sha256": "810e87f5368e820fdfcb737e833a565a5e5a8f556dcf27768de60a81932f6243",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_head_scoreboard37.sv",
+      "sha256": "4c59c65ec496fa11ea9d9d942f46674400355376f520a79de7346b92ca803e9c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_head_state_cache.sv",
+      "sha256": "23296feab3be282c8daae48135557d6304674b28533807bffeef2d07b4f8ddc8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_history40.sv",
+      "sha256": "0fb3bdede9c53e2af9b336f80a5da7c8f6ed92c669fd7de8da77246da5b8ee4b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_int4_dot128.sv",
+      "sha256": "80bda0bceb39f9107a4ab905f58f1b5b0a393e13a3d38e102db849b99167c42f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_interp40.sv",
+      "sha256": "d08099d045249a43abd2125d17f7c24020f70943c330dceba39a52a487f30249",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_layer_top.sv",
+      "sha256": "72598536eefdd71f84798106301bf5559978e0a26316c7da79a81c27c210d032",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_mac_bank.sv",
+      "sha256": "130b22bac1671eb6ee404cd6957c4a04dd955818c9c04155c6a09eb4320e6169",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_mac_expand37.sv",
+      "sha256": "68ad65763617008605b17d1a58ca4f23135f240b2a8b6498669fce24cd89c614",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_mac_share.sv",
+      "sha256": "f0f1ebd51ee12fac0fd6158d1e21e5b9b6ab5ed261bf1c65472678f99217665b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_mac_share37.sv",
+      "sha256": "ba7536700d2704d8aebfb40d9868b1596d8989cdb71b9bc1a1183e3ddfc9a9eb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_mul24_chain40.sv",
+      "sha256": "b6f89bdbb8acf2c5102aaad9343ea8ec0973f1872410980db62a85a45db62db7",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_output_norm.sv",
+      "sha256": "afd82f15ccfc64aa449436dd1c66794668f9797b11101a12ed470a220d5a5101",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_output_norm37.sv",
+      "sha256": "59415f4f3aadbb208d8aaaa8e1f16b3dde356186c6cc3c7aa8f815a97f74ed94",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_output_norm_stream.sv",
+      "sha256": "9b236dac54c84b0b4b79214ac69766aecb9644e4ff74c6fed63e612649d77d14",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_projection_bridge.sv",
+      "sha256": "4204a03009f135512f9d915cfbf7a5eb3c8829adc4db71764227a1467e47c0e4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_projection_schedule.sv",
+      "sha256": "9c53403ab9990c4a3434f79180bf2cd02ae69868ace7f15d9065612258629315",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_qk_norm.sv",
+      "sha256": "19b2cffc2bfdfd368a28a6503c10fa03dbcdc5632f08201183d1e77fd18ffd4d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_qk_norm37.sv",
+      "sha256": "99e6f6109d720eca7657ea7afd72f8c45c455a131e3e85c0ec982e2bb31ccc04",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_qkv_compact38.sv",
+      "sha256": "084f9c2a1df751cd7f5b1323c070b01913ecc98525ae8def1ed77b8e6b5e6032",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_qkv_lane_banked.sv",
+      "sha256": "38fc257506b81c941623fc778252cb3efb9ca111d761aa720b91477dafecfd8e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_read_lease_mux.sv",
+      "sha256": "e81ff77c73cdba95c905670528a3cbb6676a0933bcfa1ed86abd7699748c0c8d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_read_lease_mux37.sv",
+      "sha256": "30ee1435237cb5d47e757f059967a9e324d6a2c73846c98e0564de33b16f85f6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_recurrence.sv",
+      "sha256": "c1083aabfb0575627907eae5ffebc8b1a49daf9647473d4227723413b506fdca",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_recurrence37.sv",
+      "sha256": "ad7e62a41f0298e1f534a2854b2d593de82a7eb75b8a3d807e5847137aa1d715",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_scalar_mul.sv",
+      "sha256": "785dabd365bb9792ce6f74a3fadfbc288e08c2a89b8e3b6bb9fd3899c14ab646",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_scalar_mul_pipe.sv",
+      "sha256": "010cb0d5a88220c68cff89fbeb7bf33f198c25861ba351fcd59897392bccdd89",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_shared_norm_divider.sv",
+      "sha256": "00418d9226d8735f23319e2c32c41c9b7273c372d021047c3e6670436437765d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_silu_rom37.sv",
+      "sha256": "cddda5fd22f0695fe57ee2b518dc3af97a7313e018178bd0d5bce8deb5cec95e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_silu_service37.sv",
+      "sha256": "ec7b209d8fb5d67decbe324dd17a3d047abdedfa42ccc87d95420a2dba6a1e15",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_stack_top.sv",
+      "sha256": "012d9e5de14a685cd68026ea483c610a209bee57d17179156be9170d1bf28b33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_axi.sv",
+      "sha256": "53b031f4f898381dfdcc0e464bee6ad065884c0749509c0dfacfde6fc9bf0162",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_axi37.sv",
+      "sha256": "26c8ae3a0c36a1af9a38c8a61a9ab3be202d6b483e844cd11841d157df5ddcaa",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_ddr.sv",
+      "sha256": "a832dc32e732298396d902b171b7582b8a4dfe8b8dd09afbeda5613668b4cc06",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_ddr37.sv",
+      "sha256": "5f4ea41bd7b3103423a8bbfaafd1e4612c3ff27b569f0144ede1d972d06ef04e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_ping12.sv",
+      "sha256": "227c9a72d412ce3758e347ba11bcd0bfc8454a48c0389c39d1a4928650bfd989",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_state_ram.sv",
+      "sha256": "a2590c54b675b62a20fdb8f63871481aa8c2c2e699957e840c34fd3650da47db",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_gdn_uram_matrix8_lean.sv",
+      "sha256": "736dbeb03537df9556f84eedc368f05aaefafa3df76c3a6ef01b90a5dab30209",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_head_affine40.sv",
+      "sha256": "a18bcf41da7e567e73bafa79d330ee6b71f0f064630a94386c180e457ea5e991",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_hybrid_board_core.sv",
+      "sha256": "0bcdad4c5bd9724c6dbd8127026df702d63663b5334035233f881a07a67f1456",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_hybrid_decoder_top.sv",
+      "sha256": "e237453656ee44033b27b971b609d06a6088e5fa85d32b06d6dcb365bbb63f8b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_hybrid_layer_seq.sv",
+      "sha256": "e1fd3cdc897cfc4fdb9b5c106a3c7be4facd745aeb5b38392a5f6b9a5b0135dd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_ingress_sdp_mem.sv",
+      "sha256": "dae8beb1b0ce5520c804c46b34fbf89eb93306185f0573431f818e9ac13589de",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_int4_matrix_axi.sv",
+      "sha256": "c921784adc615429bc52b10cd9a0b36b210c580b4ae1bec9e70e4d70c0060367",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_int4_matrix_shared.sv",
+      "sha256": "e842e7c5e65745110a6745c9694bd95b321582c14fa32020a931a372e3e88b33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_int4_schedule_shared.sv",
+      "sha256": "10d9dae9b46dca745fda14f05a6f2e9d83c66a919e8661a9fb124d09882e7111",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_kv_attention_read_bridge_4k.sv",
+      "sha256": "46ee46758abc1659d1b07b9d3c7c153c510d0f075afcdf84c3febf5638cab26e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_kv_page_axi_reader.sv",
+      "sha256": "47882cbaaadf7724709a103aaecfd38242d8d329409a22fe1d50c555983b8218",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_kv_token_buffer.sv",
+      "sha256": "8fa49bf71457c4b09cd6512df0bd936497f77268c011be6d5a696ff10838496b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_kv_update_schedule.sv",
+      "sha256": "d091cd41c3aad0bcf0b63f412f9b605469df739986dd11e61f4ff6f8302ea196",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_kv_update_service.sv",
+      "sha256": "58a24eb533ea313d7c9bd7f186d92608edd9833d6398a1108220f7954973227b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_layer_postproc.sv",
+      "sha256": "e475b602d399043fbbaa1598ccee2e06422cb191c20a31d2a1055fd99d493e71",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_model_mmio.sv",
+      "sha256": "f7a4c47829e63a593eeafade378d4fb839ef4b51e4b43b44f7e98785530522e0",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_perf_counters.sv",
+      "sha256": "ec3bd6014f2c1213e11a9f7205cd1a2fbf33f8f9140dcee27783394915d2b0eb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_perf_snapshot40.sv",
+      "sha256": "502d0a4afea87c5e7e7562cb722056cdb46e54f50f664f64f79847a14173ded8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_phase_scratch_banks.sv",
+      "sha256": "5396128789082dacfcc8f0f7a149e7c05447c5356aae2a1bacfb7b83f1bfab2f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_q16_activation_cache.sv",
+      "sha256": "d08c9d3cfc12f5b9b9198454b97d4115b02e6f63953b24433932a7366f97fcdc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_q16_scale_mul.sv",
+      "sha256": "5c7b16fa76487feb905a5490848fa06f26744a68c5b6e83f21638c3747d780a8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_qkv_schedule.sv",
+      "sha256": "8a33cc8c9f8d0531f9c8001f82e388dd1565550323329bf0284d3a5701667eb5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_raw_reader_endpoint.sv",
+      "sha256": "d09758e69f81b80ff1f2e8c1f7168fbffd8880f004c33d4670a9cbb87b382f28",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_raw_reader_service.sv",
+      "sha256": "a06173a811b5f945d6b97108668907c2a98fb6a461484981ed0702ecf93734fd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_raw_tail_dma.sv",
+      "sha256": "a1b04edac9c34c1869e4c17299233772e81a783349b9eb16fa5ef31de9bc5d7f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_residual_store.sv",
+      "sha256": "a472687e660b7028957c5095f00ece0ad99314d3e46e79d3c944c4aca4850b16",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_rmsnorm_fp16.sv",
+      "sha256": "fa1ce5b0dc4ba5170ad37c7554b027b314b33a1ce61633aad2cc29c2acb21c6c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_rope_pair.sv",
+      "sha256": "def0dfab5f90506adcae88da270735cc089b81f0d63ea9e7f6fe93ed7b9b32e5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_rope_position_cache.sv",
+      "sha256": "89c97f3b2caae773af64ef3b7600bfcc95d1805a5f942dac6c0c3f6c68536ab3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_s27_state_round48.sv",
+      "sha256": "863896e091a0140c9d7590e979636f556f2fcedf943587f8f3a513d8128feef3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_scalar_divider_shared_retire.sv",
+      "sha256": "dcb9a69eac2bc555447e6b1601a708bf7f40ed22fccfc0c855e6b5a74afaf647",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_score_page_dma.sv",
+      "sha256": "d6220da377bfd419178c0f7e10d80dbb8a19b3fcb9e952ecf1610ac7997e6502",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_sdp_ram.sv",
+      "sha256": "647c994fd39ae35ebfaf8a684dab88727cb5443b9f596a5b5f5552b4bc8fddb9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_shared_q7_bank_arbiter.sv",
+      "sha256": "3419c9af16f80ecc1488b76a9c18b53a5d08506d711ce2e1db3b57ca7524f822",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_shared_vpu.sv",
+      "sha256": "c3c69f6ee5d7a96fe0a96626626eff3a28a4024520476e8a889e300c1c55b39c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_shared_w8_head_ctrl.sv",
+      "sha256": "07192ed59c65048d0c8d3d64e6b5569ea657b0797fd449be776425f6cb982315",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_swiglu_buffer.sv",
+      "sha256": "46769140aafa9aa0ac130b0e8fc276c113a2df672566bfbe9e24c3b4c8b7ef5a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_systolic128_dot16.sv",
+      "sha256": "83d9c698ee9cc86d7f2e6c1b1bd16507c8f257b99a21e90ba5591fd0232a17a4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_vpu_bank40.sv",
+      "sha256": "f59997749f2e9d36ddfbd2fc47c6ba76d4a3572e3dbadc7e1daed5bb4f70fc8d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen35_word_group_fifo.sv",
+      "sha256": "4e65df85c9a86f5993afe42b29454f8ddfe09364c43562ed22e8af3e976a1756",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_asym_sdp_ram.sv",
+      "sha256": "e6541191c71e85049917e38a065cae4b7c76b5650df2ded19a73eea4e4e44bcd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_axi_stream_port.sv",
+      "sha256": "132bc251002377110a093704f0d1f48772165ffbc21d05f4d77afb4074fad17e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_code_lane_ram.sv",
+      "sha256": "af13959719bc150efe835bb17995c674117fe5a193fdb3fb66fdb20a988282d6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_command_cdc.sv",
+      "sha256": "8579a7dbaeb3063ef56403b56378b54a3f025c0c643d2db36e3eb7dedb10f4ad",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_dot_reduce_dsp.sv",
+      "sha256": "a76b8ac269ae63c07aab84b5b0cef9b4622f870ecf406203a2f0552467fffff1",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_dot_reduce_dsp64.sv",
+      "sha256": "e27ff51528e96935df8e7e84653bc332577e9f5ca2b1547fc9c53d19f88c0435",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_dual_code_feed.sv",
+      "sha256": "511b45009ceb8cb40acc15757e866b0381103db8679d112be5f4f40a280f48f8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_exact_mul2.sv",
+      "sha256": "3404dcd0ed491f641198f48794467ae90aed54e061c4cc4c2edc87241deb59c0",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_ingress_sdp_mem.sv",
+      "sha256": "0ac33a7333f353e561dbeb9707ee42705b37e914179489b0a48835abdb6faddc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_dot.sv",
+      "sha256": "a48b337c7db1bd72a4043e6d019f605cb3bc6328eb147d17480fe1de909827da",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_dot_vpu.sv",
+      "sha256": "62b4b924eb4421cd1072d52eb5f32ffbbee6f2034bbae76b7a33c63eadc8589a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_matrix.sv",
+      "sha256": "8656b8de5f8926c0a2fda1d2dc76978856bc742c85431f74eae2130dbaccbfd5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_metadata_stream.sv",
+      "sha256": "bd9d895ac03e2f99221baf0a522dfc7679072d048471cf8022bd4cc451c3ffae",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_tile.sv",
+      "sha256": "c82ecf7dedb43577984492aec60b81fb2e7811b2edcc16cd726e7f17a0677a33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_int4_tile_overlap.sv",
+      "sha256": "94ce3d39da9659438cfb6eacb34c3d6068b1be5415dbc57d1b2bcd4c84354cb4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_kv_group_quantizer.sv",
+      "sha256": "3d736385b213a6fae2529f9e8d78537f5e947ec2f501a70089f396132c57df3e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_kv_page_axi_writer.sv",
+      "sha256": "e310d9f74d7618d52ccd62a70a712f4d7d8584a86fce32942984a6268020996d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_kv_page_codec.sv",
+      "sha256": "ee8b94d70c49d9dee6c95a6cd7f7da8866a778868d88e62e100aa0ea0d2c5818",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_kv_publish_schedule.sv",
+      "sha256": "3189f3e450d0198daba72ad16ec672568ba07bb2e3a7bfdd88cf017f79fc47a1",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_metadata_fifo64.sv",
+      "sha256": "c1d38effa3a36f3fe83a01dc3527338554c72f50787ce1e265c2242bd3c35838",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_read_response_buffer.sv",
+      "sha256": "5f813c60fac58f27c6692e6c8cabe54d7b3d9773ba5b658f5f0d20643c87456b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_scale_cache.sv",
+      "sha256": "a1aa7e86a4fe97370fc649339da9dcc93b6074f98bdb10388490a023100aed75",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_sdp_ram.sv",
+      "sha256": "907306ba6ed97e893d6cd598d1001d43200877be42aec06b7aa38c0a58a4aef5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_shared_scalar_divider.sv",
+      "sha256": "fb509168aec86ae8a8733f7fdd7726b03ba05d176cdcc96bcaf6c6056a64932e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_vpu_bank.sv",
+      "sha256": "455fd67d309272a23a61cca5cfd751d130d973bde4565961eba54393a5cf1440",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen7b_word_group_fifo.sv",
+      "sha256": "7b88e45ddaf1519da77601e7368f085dbe949f175d3b6764a99973be2c9f7d2c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/qwen_shared_axi_weight_reader.sv",
+      "sha256": "c32e5a13efa56677e1ecd01adb9e2ba1de7755748a3f9dbe032593659e20ddbf",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/src/rmsnorm_q10_stream_wide.sv",
+      "sha256": "ffbf1a79a8d805a770f78a720bc55bddab7e7726bc1f09c9563f369459a3da9f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/tests/tb_q9_ip.sv",
+      "sha256": "8fc1b36e7979a9e481d9a8c9993d307b28645e32829f33928bd144454b680b77",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/board/qwen35_board_bases.svh",
+      "sha256": "c91afde56ebedfc50906cb00513000ec947ff77ff2aea5f6de4e0108b371e17e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/physical/qwen35_model_top_storage.sv",
+      "sha256": "1443d744aca36c18dbdc7b6578ed941716b9a52607161aa58a7f3874d62ed7cc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/frozen/qwen7b_vpu_bank.sv",
+      "sha256": "455fd67d309272a23a61cca5cfd751d130d973bde4565961eba54393a5cf1440",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7attn/qwen7b_shared_scalar_divider.sv",
+      "sha256": "fb509168aec86ae8a8733f7fdd7726b03ba05d176cdcc96bcaf6c6056a64932e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7kv/qwen7b_code_lane_ram.sv",
+      "sha256": "af13959719bc150efe835bb17995c674117fe5a193fdb3fb66fdb20a988282d6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7kv/qwen7b_kv_group_quantizer.sv",
+      "sha256": "3d736385b213a6fae2529f9e8d78537f5e947ec2f501a70089f396132c57df3e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7kv/qwen7b_kv_page_axi_writer.sv",
+      "sha256": "e310d9f74d7618d52ccd62a70a712f4d7d8584a86fce32942984a6268020996d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7kv/qwen7b_kv_page_codec.sv",
+      "sha256": "ee8b94d70c49d9dee6c95a6cd7f7da8866a778868d88e62e100aa0ea0d2c5818",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7kv/qwen7b_kv_publish_schedule.sv",
+      "sha256": "3189f3e450d0198daba72ad16ec672568ba07bb2e3a7bfdd88cf017f79fc47a1",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7svc/002_qwen_shared_affine_egress.sv",
+      "sha256": "b9685cbf1d14dcf8ca45f110e3c1633fa4847460267d03750d5edae585b1dbee",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7svc/qwen_shared_axi_weight_reader.sv",
+      "sha256": "c32e5a13efa56677e1ecd01adb9e2ba1de7755748a3f9dbe032593659e20ddbf",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q7svc/qwen_sync_block_fifo.sv",
+      "sha256": "6377ceefebc296275ebabb05efaa0c18c9497e5a0a7fbf97c3c5ed485d47acf9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen15b_rmsnorm_divide_pipeline.sv",
+      "sha256": "d72beb67e5d8f6517075f7c81fb71d33b6e491e1d8888b30e75b5ec3546053e7",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_asym_sdp_ram.sv",
+      "sha256": "e6541191c71e85049917e38a065cae4b7c76b5650df2ded19a73eea4e4e44bcd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_axi_stream_port.sv",
+      "sha256": "132bc251002377110a093704f0d1f48772165ffbc21d05f4d77afb4074fad17e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_command_cdc.sv",
+      "sha256": "8579a7dbaeb3063ef56403b56378b54a3f025c0c643d2db36e3eb7dedb10f4ad",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_dot_reduce_dsp.sv",
+      "sha256": "a76b8ac269ae63c07aab84b5b0cef9b4622f870ecf406203a2f0552467fffff1",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_dot_reduce_dsp64.sv",
+      "sha256": "e27ff51528e96935df8e7e84653bc332577e9f5ca2b1547fc9c53d19f88c0435",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_dual_code_feed.sv",
+      "sha256": "511b45009ceb8cb40acc15757e866b0381103db8679d112be5f4f40a280f48f8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_exact_mul2.sv",
+      "sha256": "3404dcd0ed491f641198f48794467ae90aed54e061c4cc4c2edc87241deb59c0",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_ingress_sdp_mem.sv",
+      "sha256": "0ac33a7333f353e561dbeb9707ee42705b37e914179489b0a48835abdb6faddc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_dot.sv",
+      "sha256": "a48b337c7db1bd72a4043e6d019f605cb3bc6328eb147d17480fe1de909827da",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_dot_vpu.sv",
+      "sha256": "62b4b924eb4421cd1072d52eb5f32ffbbee6f2034bbae76b7a33c63eadc8589a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_matrix.sv",
+      "sha256": "8656b8de5f8926c0a2fda1d2dc76978856bc742c85431f74eae2130dbaccbfd5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_metadata_stream.sv",
+      "sha256": "bd9d895ac03e2f99221baf0a522dfc7679072d048471cf8022bd4cc451c3ffae",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_tile.sv",
+      "sha256": "c82ecf7dedb43577984492aec60b81fb2e7811b2edcc16cd726e7f17a0677a33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_int4_tile_overlap.sv",
+      "sha256": "94ce3d39da9659438cfb6eacb34c3d6068b1be5415dbc57d1b2bcd4c84354cb4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_metadata_fifo64.sv",
+      "sha256": "c1d38effa3a36f3fe83a01dc3527338554c72f50787ce1e265c2242bd3c35838",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_read_response_buffer.sv",
+      "sha256": "5f813c60fac58f27c6692e6c8cabe54d7b3d9773ba5b658f5f0d20643c87456b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_scale_cache.sv",
+      "sha256": "a1aa7e86a4fe97370fc649339da9dcc93b6074f98bdb10388490a023100aed75",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_sdp_ram.sv",
+      "sha256": "907306ba6ed97e893d6cd598d1001d43200877be42aec06b7aa38c0a58a4aef5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/qwen7b_word_group_fifo.sv",
+      "sha256": "7b88e45ddaf1519da77601e7368f085dbe949f175d3b6764a99973be2c9f7d2c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/q9_int4_dep/rmsnorm_q10_stream_wide.sv",
+      "sha256": "ffbf1a79a8d805a770f78a720bc55bddab7e7726bc1f09c9563f369459a3da9f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_attention_compact.sv",
+      "sha256": "91d8b05a96be03f98fd98dad97eaaf66761f6d9d98fc6caf32168740c87f158b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_attention_normalize_pipeline.sv",
+      "sha256": "c645c9657c5aad5c9fd52c191b778e5af2b01ef3bda2c8a6b8af5894a58d808c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_attention_o_stream_loader.sv",
+      "sha256": "fbeb3d1280198c2caa707b7e4888596438219f9a54786efce73dadb3d321f3fd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_attention_output_gate.sv",
+      "sha256": "e0478b11d5ccc2ab0eb716c43eb2857a4c3a1d38fc5cce34796fdc3f357072e9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_attn_engine_wrap.sv",
+      "sha256": "54b463a6c2d007704c825ce281e20504110db2d0062b08c7e87da586b72285a3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_axi512_to128_read.sv",
+      "sha256": "f52fc0e2dbe91cfdb1b32788aa9942fd6ae59bde202f6f6a6593d8d70fec7f80",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_axi_read_owner_mux.sv",
+      "sha256": "424f92ba7f5c901c621a5bac0a26b6d6ac084be213d2f6b0a95ceb98b99a5ac5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_axi_stream_port.sv",
+      "sha256": "2c73ca1b964b981c7e1e07289df08e845ea6cb1ad46a75067f03c8b0a84b7573",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_bandwidth65.sv",
+      "sha256": "fd577fb768f261998cb41963d24a31562547f219df08390e84a436cb855db76a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_bf16_dual_feed.sv",
+      "sha256": "31ea0708621e70bf7dce634bcac17029ef41df02cb5d3f70e13920f745b4bfee",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_bf16_head.sv",
+      "sha256": "7094b0c22980cfc265ccd04db8154a1a5abb43d4dfb53994219f92f2d4cb2c09",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_bf16_head_axi.sv",
+      "sha256": "4778b886c4080bffcc68a4dd11f40e1ef85e65c829c837ca842133e31ac7cc77",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_bf16_tile.sv",
+      "sha256": "119afdc3b1e4f39ea8409db9a4142e7037671039c6f4afc316748866c5193588",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_board_bases.svh",
+      "sha256": "c91afde56ebedfc50906cb00513000ec947ff77ff2aea5f6de4e0108b371e17e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_carry_prefix80_49.sv",
+      "sha256": "b50eae52c0c775799050f5690f0ef428ecc7b9b857acc372c7dc544fe91c4cf5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_command_cdc.sv",
+      "sha256": "4900a749025a63f09212f04e49362187d6e2bad0ad91369482f8548fd9151e3f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_compact_perf_monitor.sv",
+      "sha256": "7d434de6dd143d6ab26ae1cc2bcddc1b70f2759a1b707e06d914c440c6df4bc4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_compute_reset49.sv",
+      "sha256": "019cef364c629f6b0b3bf84efd32707f8dda41d80786a56f4873a87ecc0837df",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_embedding_reader.sv",
+      "sha256": "e51c48a94158b0db73fca9f0174df50d3c37e6649724a86739124ef9af191b7d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_ffn_replay_skid.sv",
+      "sha256": "da86d88e51d6dc1aa86e25197fc57cdb4cb1ab40d4d365cfd3c7cf74cd51c5f9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_ffn_schedule.sv",
+      "sha256": "1fdf290d207b0447173f515069a259cf2a472b4d4bf5b11e83fb9107333563e6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_full_attention_layer.sv",
+      "sha256": "dc30662b105350827e8a18cfcd4432e91c84dd0d6fb32f5f8a5cf9be3b0efe8e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_full_attention_payload_4k.sv",
+      "sha256": "e116ea3da8872c71647a52b8122291e425d143a63080b7f337a580ef9158dffb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_full_attention_payload_q7kv.sv",
+      "sha256": "b5f54ef522b436b56cab2604fc0753a45a91175bb19b4f196f9dc985bfd49c70",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gamma_axi_cache.sv",
+      "sha256": "ed912b01508d8bb30aa56ab5993f8169f862a6f9e03c49c803c194940a0520c9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gamma_cache.sv",
+      "sha256": "7549612bd1fa021b4986bd4da51ab0886ef6c599244771e2bb16d7337a39ad4d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gamma_position_rom.sv",
+      "sha256": "ed9e2d574c7212fa39c49b303c05657d24323d2612315e3b38b3dd4cb72b76bb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_activation_store38.sv",
+      "sha256": "338300143ae2938325e57839e7854da5228cd7bded25aa64e5b0ca2cd611ea23",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_aux_arb37.sv",
+      "sha256": "c5c772547d91e49bf3bb4679fcaba60e3e6434924df096a1f25a7bfd15facc4c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_aux_chain40.sv",
+      "sha256": "72741bee0946c8a0410e3ecbab2c6ac580bf5ff0b019febada4a5058ffb71038",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_aux_pool.sv",
+      "sha256": "6705c8371c3c7e1db9caff600ad362d9be237f282f8fed2f01cb7f9c5f72a525",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_axi_read_queue37.sv",
+      "sha256": "5bc0a4223b139f6f1e0bbc7aa51d752859ac8e106a1ebff7eb90ebdb061a23b9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_coeff_window38.sv",
+      "sha256": "c3dca23ee2a600c79d0cf78ac1e70791c3c5d8e98dc760fa6c81cc93a9ac26f4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_conv1d.sv",
+      "sha256": "66fe4615e9454416ba45aa7a3564ffa11df44d52a02499bdde1ff85166adfbb4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_conv37.sv",
+      "sha256": "43120a9f9d79f68978c8256a1fbfa5e8ab021df83fe03efe88665a5ca681979e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_conv40.sv",
+      "sha256": "74fe8a9ff101a21644b22a49797d617ce9f0fdb65ba5f936cfcef08d5e5800e6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_conv_coeff_cache.sv",
+      "sha256": "52dd1cd767d1796557e370df438879e03dc916837c03a622f9676d77cc97be2c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_engine_stream37.sv",
+      "sha256": "eaff4cde7c5ef3c94dc6f3de3359c072baa6edf303dc2acbe1d7a7ef5a6416ed",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_engine_top.sv",
+      "sha256": "e7ffce930046c05c2fce9a991192f078da13eda91a321796a33f8628c822fe03",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_fifo37.sv",
+      "sha256": "6407aeb01e1cb2725234d2b759dd3bca3a969a207204c769e0f757332e217261",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_gate_unit.sv",
+      "sha256": "42d237c817c3f246d044e8c8b0863be60da04fe94f8f3c5d39835f598d401375",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_gate_unit37.sv",
+      "sha256": "810e87f5368e820fdfcb737e833a565a5e5a8f556dcf27768de60a81932f6243",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_head_scoreboard37.sv",
+      "sha256": "4c59c65ec496fa11ea9d9d942f46674400355376f520a79de7346b92ca803e9c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_head_state_cache.sv",
+      "sha256": "23296feab3be282c8daae48135557d6304674b28533807bffeef2d07b4f8ddc8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_history37.sv",
+      "sha256": "25fd26ff12d5f7cbe13fe3a238525219a11752045504f33e9e391f53fb130ad1",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_history40.sv",
+      "sha256": "0fb3bdede9c53e2af9b336f80a5da7c8f6ed92c669fd7de8da77246da5b8ee4b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_int4_dot128.sv",
+      "sha256": "80bda0bceb39f9107a4ab905f58f1b5b0a393e13a3d38e102db849b99167c42f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_interp40.sv",
+      "sha256": "d08099d045249a43abd2125d17f7c24020f70943c330dceba39a52a487f30249",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_layer_top.sv",
+      "sha256": "72598536eefdd71f84798106301bf5559978e0a26316c7da79a81c27c210d032",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_mac_bank.sv",
+      "sha256": "130b22bac1671eb6ee404cd6957c4a04dd955818c9c04155c6a09eb4320e6169",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_mac_expand37.sv",
+      "sha256": "68ad65763617008605b17d1a58ca4f23135f240b2a8b6498669fce24cd89c614",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_mac_share.sv",
+      "sha256": "f0f1ebd51ee12fac0fd6158d1e21e5b9b6ab5ed261bf1c65472678f99217665b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_mac_share37.sv",
+      "sha256": "ba7536700d2704d8aebfb40d9868b1596d8989cdb71b9bc1a1183e3ddfc9a9eb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_mul24_chain40.sv",
+      "sha256": "b6f89bdbb8acf2c5102aaad9343ea8ec0973f1872410980db62a85a45db62db7",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_output_norm.sv",
+      "sha256": "afd82f15ccfc64aa449436dd1c66794668f9797b11101a12ed470a220d5a5101",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_output_norm37.sv",
+      "sha256": "59415f4f3aadbb208d8aaaa8e1f16b3dde356186c6cc3c7aa8f815a97f74ed94",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_output_norm_stream.sv",
+      "sha256": "9b236dac54c84b0b4b79214ac69766aecb9644e4ff74c6fed63e612649d77d14",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_projection_bridge.sv",
+      "sha256": "4204a03009f135512f9d915cfbf7a5eb3c8829adc4db71764227a1467e47c0e4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_projection_schedule.sv",
+      "sha256": "9c53403ab9990c4a3434f79180bf2cd02ae69868ace7f15d9065612258629315",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_qk_norm.sv",
+      "sha256": "19b2cffc2bfdfd368a28a6503c10fa03dbcdc5632f08201183d1e77fd18ffd4d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_qk_norm37.sv",
+      "sha256": "99e6f6109d720eca7657ea7afd72f8c45c455a131e3e85c0ec982e2bb31ccc04",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_qkv_compact38.sv",
+      "sha256": "084f9c2a1df751cd7f5b1323c070b01913ecc98525ae8def1ed77b8e6b5e6032",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_qkv_lane_banked.sv",
+      "sha256": "38fc257506b81c941623fc778252cb3efb9ca111d761aa720b91477dafecfd8e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_read_lease_mux.sv",
+      "sha256": "e81ff77c73cdba95c905670528a3cbb6676a0933bcfa1ed86abd7699748c0c8d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_read_lease_mux37.sv",
+      "sha256": "30ee1435237cb5d47e757f059967a9e324d6a2c73846c98e0564de33b16f85f6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_recurrence.sv",
+      "sha256": "c1083aabfb0575627907eae5ffebc8b1a49daf9647473d4227723413b506fdca",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_recurrence37.sv",
+      "sha256": "ad7e62a41f0298e1f534a2854b2d593de82a7eb75b8a3d807e5847137aa1d715",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_scalar_mul.sv",
+      "sha256": "785dabd365bb9792ce6f74a3fadfbc288e08c2a89b8e3b6bb9fd3899c14ab646",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_scalar_mul_pipe.sv",
+      "sha256": "010cb0d5a88220c68cff89fbeb7bf33f198c25861ba351fcd59897392bccdd89",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_shared_norm_divider.sv",
+      "sha256": "00418d9226d8735f23319e2c32c41c9b7273c372d021047c3e6670436437765d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_silu_rom37.sv",
+      "sha256": "cddda5fd22f0695fe57ee2b518dc3af97a7313e018178bd0d5bce8deb5cec95e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_silu_service37.sv",
+      "sha256": "ec7b209d8fb5d67decbe324dd17a3d047abdedfa42ccc87d95420a2dba6a1e15",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_stack_top.sv",
+      "sha256": "012d9e5de14a685cd68026ea483c610a209bee57d17179156be9170d1bf28b33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_axi.sv",
+      "sha256": "53b031f4f898381dfdcc0e464bee6ad065884c0749509c0dfacfde6fc9bf0162",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_axi37.sv",
+      "sha256": "26c8ae3a0c36a1af9a38c8a61a9ab3be202d6b483e844cd11841d157df5ddcaa",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_bank8.sv",
+      "sha256": "59c4aa555f4325a7f535eebb2b645c69867941cdf7d6097cd0fec2552e079bfe",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_bank8_lean.sv",
+      "sha256": "2273f3cd07df617be0b7579bc95b7e66d8b832d0f492254d34a2f1d6049d2861",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_ddr.sv",
+      "sha256": "a832dc32e732298396d902b171b7582b8a4dfe8b8dd09afbeda5613668b4cc06",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_ddr37.sv",
+      "sha256": "5f4ea41bd7b3103423a8bbfaafd1e4612c3ff27b569f0144ede1d972d06ef04e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_ping12.sv",
+      "sha256": "227c9a72d412ce3758e347ba11bcd0bfc8454a48c0389c39d1a4928650bfd989",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_ram.sv",
+      "sha256": "a2590c54b675b62a20fdb8f63871481aa8c2c2e699957e840c34fd3650da47db",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_tile37.sv",
+      "sha256": "3d46ccf6b812b60ea335b737564d973843632b199434a112c078a2782f845275",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_window24.sv",
+      "sha256": "47b19b9d144164c31b073e6acd68c08b5930d235eee1c64492fb54e891576ffc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_state_window_lean.sv",
+      "sha256": "97fcbf42e829916a63021bf0cd155ad24e867ae1b09be2390003be9154acc806",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_uram_matrix37.sv",
+      "sha256": "b93ccae44abc44432010ad7b417e75adecf4db3c4af677605d2cd0021cff2050",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_uram_matrix8.sv",
+      "sha256": "ce7f68f3c8d7d3bd97d1ac3516eb6afe68ff35eac25c5ae22f5278f5da508f30",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_gdn_uram_matrix8_lean.sv",
+      "sha256": "736dbeb03537df9556f84eedc368f05aaefafa3df76c3a6ef01b90a5dab30209",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_head_affine40.sv",
+      "sha256": "a18bcf41da7e567e73bafa79d330ee6b71f0f064630a94386c180e457ea5e991",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_hybrid_board_core.sv",
+      "sha256": "0bcdad4c5bd9724c6dbd8127026df702d63663b5334035233f881a07a67f1456",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_hybrid_decoder_top.sv",
+      "sha256": "e237453656ee44033b27b971b609d06a6088e5fa85d32b06d6dcb365bbb63f8b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_hybrid_layer_seq.sv",
+      "sha256": "e1fd3cdc897cfc4fdb9b5c106a3c7be4facd745aeb5b38392a5f6b9a5b0135dd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_ingress_sdp_mem.sv",
+      "sha256": "dae8beb1b0ce5520c804c46b34fbf89eb93306185f0573431f818e9ac13589de",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_int4_matrix_axi.sv",
+      "sha256": "c921784adc615429bc52b10cd9a0b36b210c580b4ae1bec9e70e4d70c0060367",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_int4_matrix_shared.sv",
+      "sha256": "e842e7c5e65745110a6745c9694bd95b321582c14fa32020a931a372e3e88b33",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_int4_schedule_shared.sv",
+      "sha256": "10d9dae9b46dca745fda14f05a6f2e9d83c66a919e8661a9fb124d09882e7111",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_attention_read_bridge.sv",
+      "sha256": "5c368075acfa8866f9d9a37fd4fa1dea80326e62b4c55d1ac48231120fc812fe",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_attention_read_bridge_4k.sv",
+      "sha256": "46ee46758abc1659d1b07b9d3c7c153c510d0f075afcdf84c3febf5638cab26e",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_page_axi_reader.sv",
+      "sha256": "47882cbaaadf7724709a103aaecfd38242d8d329409a22fe1d50c555983b8218",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_token_buffer.sv",
+      "sha256": "8fa49bf71457c4b09cd6512df0bd936497f77268c011be6d5a696ff10838496b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_update_schedule.sv",
+      "sha256": "d091cd41c3aad0bcf0b63f412f9b605469df739986dd11e61f4ff6f8302ea196",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_kv_update_service.sv",
+      "sha256": "58a24eb533ea313d7c9bd7f186d92608edd9833d6398a1108220f7954973227b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_layer_postproc.sv",
+      "sha256": "e475b602d399043fbbaa1598ccee2e06422cb191c20a31d2a1055fd99d493e71",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_model_mmio.sv",
+      "sha256": "f7a4c47829e63a593eeafade378d4fb839ef4b51e4b43b44f7e98785530522e0",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_perf_counters.sv",
+      "sha256": "ec3bd6014f2c1213e11a9f7205cd1a2fbf33f8f9140dcee27783394915d2b0eb",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_perf_snapshot40.sv",
+      "sha256": "502d0a4afea87c5e7e7562cb722056cdb46e54f50f664f64f79847a14173ded8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_phase_scratch_banks.sv",
+      "sha256": "5396128789082dacfcc8f0f7a149e7c05447c5356aae2a1bacfb7b83f1bfab2f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_pl_read_fault_capture.sv",
+      "sha256": "7b78c481523a6ad0ecdcb264f2e47e607dedb75cc08e17f77c102a572ddb1147",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_ps_read_fabric.sv",
+      "sha256": "2a2bad432ad188e3473bad679195cac7d4b8adceb3e17a0a62f30ec7b61fb0c6",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_q16_activation_cache.sv",
+      "sha256": "d08c9d3cfc12f5b9b9198454b97d4115b02e6f63953b24433932a7366f97fcdc",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_q16_scale_mul.sv",
+      "sha256": "5c7b16fa76487feb905a5490848fa06f26744a68c5b6e83f21638c3747d780a8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_qkv_schedule.sv",
+      "sha256": "8a33cc8c9f8d0531f9c8001f82e388dd1565550323329bf0284d3a5701667eb5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_raw_reader_endpoint.sv",
+      "sha256": "d09758e69f81b80ff1f2e8c1f7168fbffd8880f004c33d4670a9cbb87b382f28",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_raw_reader_service.sv",
+      "sha256": "a06173a811b5f945d6b97108668907c2a98fb6a461484981ed0702ecf93734fd",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_raw_tail_dma.sv",
+      "sha256": "a1b04edac9c34c1869e4c17299233772e81a783349b9eb16fa5ef31de9bc5d7f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_residual_store.sv",
+      "sha256": "a472687e660b7028957c5095f00ece0ad99314d3e46e79d3c944c4aca4850b16",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_rmsnorm_fp16.sv",
+      "sha256": "fa1ce5b0dc4ba5170ad37c7554b027b314b33a1ce61633aad2cc29c2acb21c6c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_rope_pair.sv",
+      "sha256": "def0dfab5f90506adcae88da270735cc089b81f0d63ea9e7f6fe93ed7b9b32e5",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_rope_position_cache.sv",
+      "sha256": "89c97f3b2caae773af64ef3b7600bfcc95d1805a5f942dac6c0c3f6c68536ab3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_s27_state_round48.sv",
+      "sha256": "863896e091a0140c9d7590e979636f556f2fcedf943587f8f3a513d8128feef3",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_scalar_divider_shared_retire.sv",
+      "sha256": "dcb9a69eac2bc555447e6b1601a708bf7f40ed22fccfc0c855e6b5a74afaf647",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_score_page_dma.sv",
+      "sha256": "d6220da377bfd419178c0f7e10d80dbb8a19b3fcb9e952ecf1610ac7997e6502",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_sdp_ram.sv",
+      "sha256": "647c994fd39ae35ebfaf8a684dab88727cb5443b9f596a5b5f5552b4bc8fddb9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_shared_q7_bank_arbiter.sv",
+      "sha256": "3419c9af16f80ecc1488b76a9c18b53a5d08506d711ce2e1db3b57ca7524f822",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_shared_vpu.sv",
+      "sha256": "c3c69f6ee5d7a96fe0a96626626eff3a28a4024520476e8a889e300c1c55b39c",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_shared_w8_head_ctrl.sv",
+      "sha256": "07192ed59c65048d0c8d3d64e6b5569ea657b0797fd449be776425f6cb982315",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_swiglu_buffer.sv",
+      "sha256": "46769140aafa9aa0ac130b0e8fc276c113a2df672566bfbe9e24c3b4c8b7ef5a",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_systolic128_dot16.sv",
+      "sha256": "83d9c698ee9cc86d7f2e6c1b1bd16507c8f257b99a21e90ba5591fd0232a17a4",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_vpu_bank40.sv",
+      "sha256": "f59997749f2e9d36ddfbd2fc47c6ba76d4a3572e3dbadc7e1daed5bb4f70fc8d",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl/qwen35_word_group_fifo.sv",
+      "sha256": "4e65df85c9a86f5993afe42b29454f8ddfe09364c43562ed22e8af3e976a1756",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/056_sidewinder_dci_startup_ctrl.sv",
+      "sha256": "7e8827bf888a9e56c1e2339df843349fdf7371edd0b49092c1c35e1a8a2922a8",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/073_axi512_write_arbiter_2to1.sv",
+      "sha256": "2b4fa96d2668301144c2c41e1ca03fb8add938fca132f9f21d8e623fc1b469f9",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/074_axi512_single_write_cdc.sv",
+      "sha256": "1ae7dbc818ac8d158b14c0c64226462165810d6e8dbccc4396779268826be139",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/085_axi512_single_read_cdc.sv",
+      "sha256": "92fed46e6521e582853c61aa609b6fa2d6dd21e1ae75bfd24827469bd4cc4d35",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/086_axi512_read_arbiter_3to1.sv",
+      "sha256": "646ba0d5874a24cb05c3e260545797a909eb1d523941dfdfa2b02e006400cf7f",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    },
+    {
+      "path": "rtl/q9_4k/source/rtl_board_shell/qwen15b_unsigned_divider_iterative.sv",
+      "sha256": "d1a06abf3bc0f966a7f763c19d184a4289ff5c281189ddffe8c035de14a1078b",
+      "source_archive": "q9_4k_protected_ip_vivado2025_2_v1_0.zip"
+    }
+  ],
+  "original_rtl_bytes_unchanged": true,
+  "legacy_encrypted_files": 129,
+  "legacy_public_original_files": 37
+}
