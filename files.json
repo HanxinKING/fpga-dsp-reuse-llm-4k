@@ -44,8 +44,8 @@
     },
     {
       "path": "data/version_comparison.json",
-      "bytes": 2680,
-      "sha256": "0a33f80f6af75a62db07bdf926a78c50675635a7f55a4d47a7685607760a869d"
+      "bytes": 2195,
+      "sha256": "e907e270f98db76769c72fe3d31171d5e8fc79872923140824b625fa41410d9b"
     },
     {
       "path": "docs/architecture.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "docs/comparisons.md",
-      "bytes": 7992,
-      "sha256": "3d45ebf7a1cc7fcf258074fcc760cd740c57eb4682f05c5225983089c93ae632"
+      "bytes": 7986,
+      "sha256": "10a35356d51839e28844ccb3627ccddf58c0704993b59523c44ea3dd7a52df04"
     },
     {
       "path": "docs/qwen7b.md",
@@ -133,6 +133,11 @@
       "sha256": "0c40eb922cbafb6dbc511403c968ab9625ad6d3c1f179c0a02c76c9d069d451d"
     },
     {
+      "path": "src/ps/linux/bin/q9-engine",
+      "bytes": 49984,
+      "sha256": "c3eb0fe5cd8f70bbd7cf0cf464c091b346825beec34b10d4d4da812de670a18b"
+    },
+    {
       "path": "src/ps/protocol.py",
       "bytes": 4788,
       "sha256": "b73eb2fb8e92927c10ec06b157482b9e55fca0572c7cc74953ddaa8787d11f58"
@@ -144,8 +149,8 @@
     },
     {
       "path": "src/runtime/legacy_4k_runtime.zip",
-      "bytes": 5597298,
-      "sha256": "b1661519c3a2b23b9cac152241ec85ff67668546787204b660b3388f48071fb0"
+      "bytes": 5568986,
+      "sha256": "16893d4b9c8110c991eb613bc9ade3e4fef974becfd9b8425cbadd5c793af944"
     }
   ]
 }

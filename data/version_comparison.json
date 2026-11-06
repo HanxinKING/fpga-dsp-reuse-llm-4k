@@ -71,22 +71,6 @@
       "display_tokens_per_second": 4.86,
       "measurement": "author-confirmed display value; raw matched trace not supplied",
       "source": "q9-frozen-4k-status + design-report"
-    },
-    {
-      "id": "q9_q933_32k",
-      "model": "Qwen3.5-9B",
-      "memory": "PS+PL DDR",
-      "main_dsp": 128,
-      "context": 32768,
-      "core_mhz": 250,
-      "display_tokens_per_second": 4.86,
-      "measurement": "author report display value; not a full-32K semantic benchmark",
-      "source": "Q933 exact-bit reopened utilization and board acceptance",
-      "lut": 104860.0,
-      "ff": 109225.0,
-      "bram36": 173.5,
-      "uram": 15.0,
-      "total_dsp": 157.0
     }
   ],
   "q9_state_uram": {
